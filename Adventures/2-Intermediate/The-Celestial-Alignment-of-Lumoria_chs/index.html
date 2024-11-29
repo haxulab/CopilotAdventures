@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>天体排列 - Copilot 冒险</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u5929\u4f53\u6392\u5217";
+        var mkdocs_page_input_path = "Adventures/2-Intermediate/The-Celestial-Alignment-of-Lumoria_chs.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Copilot 冒险
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../README_chs/">Copilot 冒险</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../Warmup-Adventure_chs/">热身冒险</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">初级</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../1-Beginner/The-Clockwork-Town-of-Tempora_chs/">天机镇</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../1-Beginner/The-Magical-Forest-of-Algora_chs/">魔法森林</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">中级</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">天体排列</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_1">背景</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_2">目标</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">规格</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">约束</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_5">高级任务概要</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_6">入门提示</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#github-copilot">GitHub Copilot 提示</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#copilot">使用Copilot提高效率</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#copilot_1">使用Copilot生成代码注释</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#copilot_2">使用Copilot简化代码</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_7">出现错误？</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../The-Legendary-Duel-of-Stonevale_chs/">传奇决斗</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../The-Scrolls-of-Eldoria_chs/">古老卷轴</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">高级</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../3-Advanced/The-Gridlock-Arena-of-Mythos_chs/">竞技场</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../MSGraph/Beginner/The-Interstellar-Network-of-Starborn_chs/">星际网络</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Copilot 冒险</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">中级</li>
+      <li class="breadcrumb-item active">天体排列</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="lumoria">Lumoria的天体排列</h2>
+<p><a href="#">
+    <img src="../../Images/lumoria.jpg" style="width: 830px" />
+</a></p>
+<h3 id="_1">背景</h3>
+<p>在浩瀚的Galaxia星云中，Lumoria恒星系统即将发生一种罕见的现象。围绕Lumoria太阳旋转的行星们正在进行一次几千年才出现一次的天体排列。这种排列对Lumoria太阳发出的光到达每颗行星的方式有着独特的影响。</p>
+<h3 id="_2">目标</h3>
+<p>你的任务是计算每颗行星在这一排列期间所接收到的光线强度。根据行星与Lumoria太阳的距离及其相对位置，确定哪些行星可能由于其他行星的遮挡而经历光强度的下降。</p>
+<h3 id="_3">规格</h3>
+<ol>
+<li><strong>行星数据:</strong></li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>行星名称</th>
+<th>距离（天文单位）</th>
+<th>大小（公里）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mercuria</td>
+<td>0.4</td>
+<td>4879</td>
+</tr>
+<tr>
+<td>Earthia</td>
+<td>1</td>
+<td>12742</td>
+</tr>
+<tr>
+<td>Marsia</td>
+<td>1.5</td>
+<td>6779</td>
+</tr>
+<tr>
+<td>Venusia</td>
+<td>0.7</td>
+<td>12104</td>
+</tr>
+</tbody>
+</table>
+<p>这些行星没有按照它们到Lumoria太阳的距离排序，所以你需要处理这个问题。</p>
+<ol>
+<li><strong>光动态:</strong></li>
+<li>如果一颗小的行星在一颗大的行星后面（相对于Lumoria太阳），它将处于阴影中并且不会接收到光（<code>None</code>）。</li>
+<li>如果一颗大的行星在一颗小的行星后面（相对于Lumoria太阳），它将接收到“部分”光（<code>Partial</code>）。</li>
+<li>如果一颗行星处于多颗行星的阴影中，它将被标记为<code>None (Multiple Shadows)</code>。</li>
+<li>
+<p>如果两颗行星大小相似并且在排列中接近，它们可能会部分遮挡彼此，但为了简化，可以认为它们都接收到满光（<code>Full</code>）。</p>
+</li>
+<li>
+<p><strong>输出:</strong></p>
+<ul>
+<li>你的系统应输出行星及其接收到的光强度列表：<code>Full</code>, <code>Partial</code>, <code>None</code>或<code>None (Multiple Shadows)</code>。</li>
+</ul>
+</li>
+</ol>
+<h3 id="_4">约束</h3>
+<ul>
+<li>使用GitHub Copilot，并用你喜欢的任何语言编写模拟程序。</li>
+<li>重点编写清晰简洁的代码，能有效地处理行星检查。向GitHub Copilot/Chat询问：“如何使这段代码更具可读性和可维护性？”。</li>
+<li>如果有时间，鼓励创建一个行星的SVG视觉表示，但这不是必需的。</li>
+</ul>
+<h3 id="_5">高级任务概要</h3>
+<ol>
+<li>使用控制台应用程序输出结果。</li>
+<li>根据到Lumoria太阳的距离排序行星列表。</li>
+<li>遍历排序后的行星列表。</li>
+<li>对于每颗行星，检查离Lumoria太阳较近的行星是否会对其他行星投下阴影。</li>
+<li>输出每颗行星接收到的光照强度。</li>
+</ol>
+<h3 id="_6">入门提示</h3>
+<ol>
+<li>如果你使用的是GitHub Codespace，你已经准备好了！</li>
+<li>如果在本地运行，确保你安装了目标语言/框架。<ul>
+<li><a href="https://nodejs.org">Node.js</a></li>
+<li><a href="https://www.python.org/downloads/">Python</a></li>
+<li><a href="https://dot.net">.NET</a></li>
+</ul>
+</li>
+<li>创建一个代码文件夹。<ul>
+<li>JavaScript: 创建一个名为 <code>lumoria</code> 的文件夹，并添加一个名为 <code>app.js</code> 的文件。</li>
+<li>Python: 创建一个名为 <code>lumoria</code> 的文件夹，并添加一个名为 <code>app.py</code> 的文件。</li>
+<li>C#: 创建一个名为 <code>lumoria</code> 的文件夹，并运行 <code>dotnet new console</code>。</li>
+</ul>
+</li>
+</ol>
+<h3 id="github-copilot">GitHub Copilot 提示</h3>
+<p><a href="#">
+    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+</a></p>
+<p>首先，你需要将行星数据放入一个你可以使用的数据结构中。</p>
+<ol>
+<li>复制之前展示的Markdown表格。</li>
+<li>
+<p>打开 <a href="https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question">GitHub Copilot Chat视图</a> 并输入以下文本。将你的语言选择替换为“JavaScript”。</p>
+<p><code>text
+turn this markdown list into a JavaScript array of objects</code></p>
+</li>
+<li>
+<p>在评论下方粘贴Markdown表格并按下回车键。</p>
+</li>
+<li>将生成的行星数组插入到代码中。</li>
+</ol>
+<pre><code class="language-js">// light intensity array
+
+// traverse the sorted array
+
+    // create an object to track the count of Larger and Smaller planets that are closer to the sun than the current planet
+
+    // for all the planets that come before this planet in the planets array, increment Larger if they are larger than the current planet or Smaller if they are smaller than the current planet
+
+    // if count.larger === 0 and count.smaller === 0 push planet name and &quot;Full&quot; to lightIntensity 
+
+    // if count.smaller &gt; 0 and count.larger === 0 push planet name and &quot;Partial&quot; to lightIntensity
+
+    // if count.larger === 1 push planet name and &quot;None&quot; to lightIntensity
+
+    // if count.larger &gt; 1 push planet name and &quot;None (Multiple Shadows)&quot; to lightIntensity
+
+// print the lightIntensity array
+</code></pre>
+<h4 id="copilot">使用Copilot提高效率</h4>
+<p>看看你能否使用Copilot找出代码的复杂度（BigO符号）。</p>
+<ol>
+<li>
+<p>打开侧边栏中的 <a href="https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question">GitHub Copilot Chat视图</a>。确保你仍然打开了解决方案文件。</p>
+</li>
+<li>
+<p>询问Copilot Chat代码的复杂度是什么。</p>
+</li>
+<li>
+<p>询问Copilot Chat如何使代码更高效。</p>
+</li>
+<li>
+<p>再次询问复杂度——是不是更好了？</p>
+</li>
+</ol>
+<h4 id="copilot_1">使用Copilot生成代码注释</h4>
+<ol>
+<li>
+<p>使用<kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>突出显示所有代码。</p>
+</li>
+<li>
+<p>按下<kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd>打开内联聊天。</p>
+</li>
+<li>
+<p>输入<code>/doc</code></p>
+</li>
+<li>
+<p>让Copilot Chat为函数生成文档。</p>
+</li>
+</ol>
+<h4 id="copilot_2">使用Copilot简化代码</h4>
+<ol>
+<li>
+<p>打开侧边栏中的GitHub Copilot Chat。</p>
+</li>
+<li>
+<p>输入<code>/simplify</code>并按下回车键。你也可以在“/simplify”后添加任何文本，以便给Copilot更多的指示。</p>
+</li>
+<li>
+<p>Copilot Chat建议你做些什么来简化代码？</p>
+</li>
+</ol>
+<h4 id="_7">出现错误？</h4>
+<p>Copilot Chat也可以帮助你解决这些问题！只需要复制错误信息并粘贴到Chat中。通常这就是Copilot解决问题所需要的一切。</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../1-Beginner/The-Magical-Forest-of-Algora_chs/" class="btn btn-neutral float-left" title="魔法森林"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../The-Legendary-Duel-of-Stonevale_chs/" class="btn btn-neutral float-right" title="传奇决斗">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../1-Beginner/The-Magical-Forest-of-Algora_chs/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../The-Legendary-Duel-of-Stonevale_chs/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

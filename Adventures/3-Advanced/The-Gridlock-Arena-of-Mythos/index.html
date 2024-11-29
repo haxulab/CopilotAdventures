@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>The Gridlock Arena of Mythos - Copilot 冒险</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "The Gridlock Arena of Mythos";
+        var mkdocs_page_input_path = "Adventures/3-Advanced/The-Gridlock-Arena-of-Mythos.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Copilot 冒险
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../README_chs/">Copilot 冒险</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../Warmup-Adventure_chs/">热身冒险</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">初级</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../1-Beginner/The-Clockwork-Town-of-Tempora_chs/">天机镇</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../1-Beginner/The-Magical-Forest-of-Algora_chs/">魔法森林</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">中级</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../2-Intermediate/The-Celestial-Alignment-of-Lumoria_chs/">天体排列</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../2-Intermediate/The-Legendary-Duel-of-Stonevale_chs/">传奇决斗</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../2-Intermediate/The-Scrolls-of-Eldoria_chs/">古老卷轴</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">高级</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../The-Gridlock-Arena-of-Mythos_chs/">竞技场</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../MSGraph/Beginner/The-Interstellar-Network-of-Starborn_chs/">星际网络</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Copilot 冒险</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">The Gridlock Arena of Mythos</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="the-gridlock-arena-of-mythos">The Gridlock Arena of Mythos</h2>
+<p><a href="#">
+   <img src="../../Images/mythos-arena-full.jpg" style="width: 830px" />
+</a></p>
+<h3 id="background">Background</h3>
+<p>In the mystical land of Mythos, creatures from various realms come together to battle in the Gridlock Arena, a chess-like grid where strategy, power, and cunning are tested. Each creature has its unique move, power, and strategy.</p>
+<h3 id="objective">Objective</h3>
+<p>Your task is to simulate a battle in the Gridlock Arena. Each creature will make a series of moves, and after each move, the creature might inflict damage on its opponent if they land on the same square. The goal is to accumulate the highest score by the end of the battle. A round is completed when all creatures have taken one move this round. To track the progress of the battle, visualize the grid after each round and display the current scores right below the grid.</p>
+<h3 id="specifications">Specifications</h3>
+<ol>
+<li>
+<p><strong>Grid Dynamics:</strong></p>
+<ul>
+<li>The Gridlock Arena is a 5x5 grid.</li>
+<li>Each cell in the grid can be empty or occupied by a creature.</li>
+<li>Creatures can move up, down, left, or right by one cell.</li>
+</ul>
+</li>
+<li>
+<p><strong>Creature Data:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Start</th>
+<th>Moves</th>
+<th>Power</th>
+<th>Icon</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dragon</td>
+<td>2,2</td>
+<td>RIGHT, LEFT, DOWN</td>
+<td>7</td>
+<td>🐉</td>
+</tr>
+<tr>
+<td>Goblin</td>
+<td>2,3</td>
+<td>LEFT, RIGHT, UP</td>
+<td>3</td>
+<td>👺</td>
+</tr>
+<tr>
+<td>Ogre</td>
+<td>0,0</td>
+<td>RIGHT, DOWN, DOWN</td>
+<td>5</td>
+<td>👹</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><strong>Turn Order</strong></p>
+<ul>
+<li>Creatures take turns making moves.</li>
+<li>Each creature is evaluated in a sequential order, starting with topmost, then the next.</li>
+<li>The creature always takes the move that is the leftmost not yet executed move in its move specification.</li>
+<li>If a creature were to land on a cell occupied by another creature, the creature does not move, insteady a battle occurrs (see Battle Dynamics below).</li>
+<li>A round is completed when all creatures have made exactly one move this round.</li>
+<li>After that, the next round starts with the topmost creature.</li>
+<li>If a creature has no more moves left in its specification, the game ends.</li>
+</ul>
+</li>
+<li>
+<p><strong>Battle Dynamics:</strong></p>
+<ul>
+<li>If the creature would land on a cell already occupied by another creature, they both inflict damage on each other.</li>
+<li>Each creature gets points equal to the amount of damage it inflicted on the other creature.</li>
+<li>Each creature loses points equal to the amount of damage it received.</li>
+<li>Each pair of creatures may only battle once per round</li>
+</ul>
+</li>
+<li>
+<p><strong>Output:</strong></p>
+<ul>
+<li>After each round, visualize the grid by printing it to the console using ⬜️ to represent a cell. </li>
+<li>Above the grid add a title that either says "Initial Board" (to show the initial state of the board) or "Round X" where X is the current round number.</li>
+<li>Use each creature's icon to represent it on the grid. </li>
+<li>Empty cells can be represented by a ⬜️.</li>
+<li>Battle cells can be represented by a 🤺.</li>
+<li>Display the current scores for each creature right below the grid after each round.</li>
+<li>At the end of the game, return the total points each creature accumulated.</li>
+</ul>
+<p><a href="#">
+     <img src="../../Images/mythos-board-example.png">
+  </a></p>
+</li>
+</ol>
+<h3 id="constraints">Constraints</h3>
+<ul>
+<li>Use GitHub Copilot and write the simulation in any language you'd like.</li>
+<li>Ensure efficient algorithms to handle the battle dynamics. Ask GitHub Copilot/Chat, "How can I make this code more readable and maintainable?".</li>
+<li>The program should have 100% test coverge. Use the /tests command in GitHub Copilot Chat.</li>
+</ul>
+<h3 id="summary-of-high-level-tasks-to-perform">Summary of High-Level Tasks to Perform</h3>
+<ol>
+<li>
+<p>Use a console application to render the output.</p>
+</li>
+<li>
+<p><strong>Define Constants and Data Structures</strong>:</p>
+</li>
+<li>Define the <code>creatures</code> array containing the creature details.</li>
+<li>
+<p>Define a <code>directions</code> object to map the movement directions to their respective changes in coordinates.</p>
+</li>
+<li>
+<p><strong>Initialize the Battle Grid</strong>:</p>
+</li>
+<li>
+<p>Set the grid size and create a 2D array (<code>grid</code>) with all cells initialized to <code>null</code>.</p>
+</li>
+<li>
+<p><strong>Initialize Scores and Grid</strong>:</p>
+</li>
+<li>Loop through each creature in the <code>creatures</code> array.</li>
+<li>For each creature, initialize its score to 0 in the <code>scores</code> object.</li>
+<li>
+<p>Place each creature on the grid using its starting position and icon.</p>
+</li>
+<li>
+<p><strong>Simulate Battle Moves</strong>:</p>
+</li>
+<li>Loop through the number of moves, starting from -1 (to represent the initial state).</li>
+<li>If it's the initial state (<code>move</code> is -1), render the grid.</li>
+<li>If it's the last move, exit the loop after rendering.</li>
+<li>
+<p>For each move:</p>
+<ul>
+<li>Determine the new position of the creature based on its move direction.</li>
+<li>Check if the new position overlaps with another creature.</li>
+<li>Update scores and grid state based on overlaps or successful moves.</li>
+</ul>
+</li>
+<li>
+<p><strong>Render the Grid</strong>:</p>
+</li>
+<li>
+<p>For each state of the grid (initial and after each round):</p>
+<ul>
+<li>Display the round number or "Initial Board" for the initial state.</li>
+<li>Print the grid state with creatures or an empty cell representation.</li>
+<li>Display the current scores for all creatures.</li>
+</ul>
+</li>
+<li>
+<p><strong>Return Final Scores</strong>:</p>
+</li>
+<li>After all moves have been simulated, return the final scores for each creature. </li>
+</ol>
+<h3 id="tips-to-get-started">Tips to Get Started</h3>
+<ol>
+<li>If you're using a GitHub Codespace, you're ready to go!</li>
+<li>If running locally, ensure that you have your target language/framework installed. <ul>
+<li><a href="https://nodejs.org">Node.js</a></li>
+<li><a href="https://www.python.org/downloads/">Python</a></li>
+<li><a href="https://dot.net">.NET</a></li>
+</ul>
+</li>
+<li>Create a folder for your code. <ul>
+<li>JavaScript: Create a folder called <code>mythos</code> and add a file named <code>app.js</code>.</li>
+<li>Python: Create a folder called <code>mythos</code> and add a file named <code>app.py</code>.</li>
+<li>C#: Create a folder called <code>mythos</code> and run <code>dotnet new console</code>.</li>
+</ul>
+</li>
+</ol>
+<h3 id="github-copilot-tips">GitHub Copilot Tips</h3>
+<p><a href="#">
+    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+</a></p>
+<h4 id="use-copilot-to-improve-efficiency">Use Copilot to improve efficiency</h4>
+<p>See if you can use Copilot to find out the complexity (BigO notation) of the code.</p>
+<ol>
+<li>
+<p>Open the <a href="https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question">GitHub Copilot Chat view</a> in the sidebar if it's not already open. Make sure your solution file is still open as well.</p>
+</li>
+<li>
+<p>Ask Copilot Chat what the complexity of the code is.</p>
+</li>
+<li>
+<p>Ask Copilot Chat to make the code more efficient.</p>
+</li>
+<li>
+<p>Ask for the complexity again - is it better?</p>
+</li>
+</ol>
+<h4 id="use-copilot-to-generate-code-comments">Use Copilot to generate code comments</h4>
+<ol>
+<li>
+<p>Highlight all of the code with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.</p>
+</li>
+<li>
+<p>Press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd> to open the inline chat. </p>
+</li>
+<li>
+<p>Type "/doc"</p>
+</li>
+<li>
+<p>Ask Copilot Chat to document the function.</p>
+</li>
+</ol>
+<h4 id="use-copilot-to-simplify-your-code">Use Copilot to simplify your code</h4>
+<ol>
+<li>
+<p>Open GitHub Copilot Chat in the sidebar.</p>
+</li>
+<li>
+<p>Type "/simplify" and press <kbd>Enter</kbd>. You can also add any text you want after the "/simplify" to give Copilot more instructions.</p>
+</li>
+<li>
+<p>What did Copilot Chat suggest you do to make it simpler?</p>
+</li>
+</ol>
+<h4 id="got-errors">Got Errors?</h4>
+<p>Copilot Chat can help with that too! Just copy the error message and paste it into Chat. Often that's all Copilot needs to resolve your issue.</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

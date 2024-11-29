@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>The Clockwork Town of Tempora - Copilot 冒险</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "The Clockwork Town of Tempora";
+        var mkdocs_page_input_path = "Adventures/1-Beginner/The-Clockwork-Town-of-Tempora.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> Copilot 冒险
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../../README_chs/">Copilot 冒险</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../Warmup-Adventure_chs/">热身冒险</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">初级</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../The-Clockwork-Town-of-Tempora_chs/">天机镇</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../The-Magical-Forest-of-Algora_chs/">魔法森林</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">中级</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../2-Intermediate/The-Celestial-Alignment-of-Lumoria_chs/">天体排列</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../2-Intermediate/The-Legendary-Duel-of-Stonevale_chs/">传奇决斗</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../2-Intermediate/The-Scrolls-of-Eldoria_chs/">古老卷轴</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">高级</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../3-Advanced/The-Gridlock-Arena-of-Mythos_chs/">竞技场</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../MSGraph/Beginner/The-Interstellar-Network-of-Starborn_chs/">星际网络</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Copilot 冒险</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">The Clockwork Town of Tempora</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="the-clockwork-town-of-tempora">The Clockwork Town of Tempora</h2>
+<p><a href="#">
+    <img src="../../Images/tempora-clocks.jpg"  style="width: 830px" />
+</a></p>
+<h3 id="background">Background</h3>
+<p>In the mechanical town of Tempora, everything operates on clockwork and precise timing. At the heart of the town is the Grand Clock Tower, responsible for keeping time for all the town's activities. However, over the years, some smaller clocks in the town have started to drift away from the accurate time.</p>
+<h3 id="objective">Objective</h3>
+<p>Your task is to create a system that checks all the clocks in the town and synchronizes them with the Grand Clock Tower. You'll be given a list of times from various clocks around the town, and you must determine how many minutes each clock is ahead or behind the Grand Clock Tower's time.</p>
+<h3 id="specifications">Specifications</h3>
+<ol>
+<li>
+<p><strong>Clock Data:</strong></p>
+<ul>
+<li>The clock times are provided in a 24-hour format.</li>
+<li>The Grand Clock Tower is at 15:00.</li>
+<li>Clock times around town:<ul>
+<li>Clock 1: 14:45</li>
+<li>Clock 2: 15:05</li>
+<li>Clock 3: 15:00</li>
+<li>Clock 4: 14:40</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Time Analysis and Output:</strong></p>
+<ul>
+<li>You need to determine how many minutes each clock is ahead or behind the Grand Clock Tower.</li>
+<li>The result should be an array of integers representing the time difference in minutes. Positive values indicate the clock is ahead, and negative values indicate it's behind.</li>
+</ul>
+</li>
+</ol>
+<h3 id="constraints">Constraints</h3>
+<ul>
+<li>Use GitHub Copilot and write the simulation in any language you'd like.</li>
+<li>Focus on clear and concise code. Ask GitHub Copilot/Chat, "How can I make this code more readable and maintainable?".</li>
+<li>Creating a visual representation for the clocks is optional but encouraged if you have time.</li>
+</ul>
+<h3 id="summary-of-high-level-tasks-to-perform">Summary of High-Level Tasks to Perform</h3>
+<ol>
+<li>Use a console application to render the output.</li>
+<li>Parse the time data for each clock and the Grand Clock Tower.</li>
+<li>Calculate the difference in minutes between each clock and the Grand Clock Tower.</li>
+<li>Output the list of time differences.</li>
+</ol>
+<h3 id="tips-to-get-started">Tips to Get Started</h3>
+<ol>
+<li>If you're using a GitHub Codespace, you're ready to go!</li>
+<li>If running locally, ensure that you have your target language/framework installed. <ul>
+<li><a href="https://nodejs.org">Node.js</a></li>
+<li><a href="https://www.python.org/downloads/">Python</a></li>
+<li><a href="https://dot.net">.NET</a></li>
+</ul>
+</li>
+<li>Create a folder for your code. <ul>
+<li>JavaScript: Create a folder called <code>tempora</code> and add a file named <code>app.js</code>.</li>
+<li>Python: Create a folder called <code>tempora</code> and add a file named <code>app.py</code>.</li>
+<li>C#: Create a folder called <code>tempora</code> and run <code>dotnet new console</code>.</li>
+</ul>
+</li>
+</ol>
+<h3 id="github-copilot-tips">GitHub Copilot Tips</h3>
+<p><a href="#">
+    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+</a></p>
+<h4 id="use-copilot-to-improve-efficiency">Use Copilot to improve efficiency</h4>
+<p>See if you can use Copilot to find out the complexity (BigO notation) of the code.</p>
+<ol>
+<li>
+<p>Open the <a href="https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question">GitHub Copilot Chat view</a> in the sidebar if it's not already open. Make sure your solution file is still open as well.</p>
+</li>
+<li>
+<p>Ask Copilot Chat what the complexity of the code is.</p>
+</li>
+<li>
+<p>Ask Copilot Chat to make the code more efficient.</p>
+</li>
+<li>
+<p>Ask for the complexity again - is it better?</p>
+</li>
+</ol>
+<h4 id="use-copilot-to-generate-code-comments">Use Copilot to generate code comments</h4>
+<ol>
+<li>
+<p>Highlight all of the code with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>A</kbd>.</p>
+</li>
+<li>
+<p>Press <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>I</kbd> to open the inline chat. </p>
+</li>
+<li>
+<p>Type "/doc"</p>
+</li>
+<li>
+<p>Ask Copilot Chat to document the function.</p>
+</li>
+</ol>
+<h4 id="use-copilot-to-simplify-your-code">Use Copilot to simplify your code</h4>
+<ol>
+<li>
+<p>Open GitHub Copilot Chat in the sidebar.</p>
+</li>
+<li>
+<p>Type "/simplify" and press <kbd>Enter</kbd>. You can also add any text you want after the "/simplify" to give Copilot more instructions.</p>
+</li>
+<li>
+<p>What did Copilot Chat suggest you do to make it simpler?</p>
+</li>
+</ol>
+<h4 id="got-errors">Got Errors?</h4>
+<p>Copilot Chat can help with that too! Just copy the error message and paste it into Chat. Often that's all Copilot needs to resolve your issue.</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
