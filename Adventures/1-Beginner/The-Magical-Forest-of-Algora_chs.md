@@ -1,8 +1,6 @@
 ## 阿尔戈拉魔法森林
 
-<a href="#">
-    <img src="/Images/algora-forest.jpg" style="width: 830px" />
-</a>
+![Algora Forest](../../Images/algora-forest.jpg)
 
 ### 背景
 
@@ -77,9 +75,7 @@
 
 ### GitHub Copilot 提示
 
-<a href="#">
-    <img src="/Images/copilot-tips.jpg"  style="width: 830px" />
-</a>
+[![Copilot Tips](../../Images/copilot-tips.jpg)](#)
 
 #### 使用 Copilot 提高效率
 

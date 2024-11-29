@@ -1,8 +1,4 @@
-## Eldoria的卷轴
-
-<a href="#">
-    <img src="/Images/eldoria.jpg" style="width: 830px" />
-</a>
+![Eldoria](../../Images/eldoria.jpg)
 
 ### 背景
 
@@ -53,9 +49,7 @@
 
 ### GitHub Copilot 提示
 
-<a href="#">
-    <img src="/Images/copilot-tips.jpg"  style="width: 830px" />
-</a>
+![Copilot Tips](../../Images/copilot-tips.jpg)
 
 #### 使用Copilot提高效率
 

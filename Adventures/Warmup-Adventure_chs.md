@@ -1,8 +1,6 @@
 ## GitHub Copilot 热身冒险
 
-<a href="#">
-    <img src="/Images/warm-up.jpg" style="width: 830px" />
-</a>
+![Warm-up](../Images/warm-up.jpg)
 
 GitHub Copilot 是一位 AI 编程伙伴，帮助你编写更好的代码。在这个热身冒险中，你将了解 Copilot 并亲自试用。以下是使用 GitHub Copilot 可以做的一些事情：
 
@@ -39,9 +37,7 @@ GitHub Copilot 是一位 AI 编程伙伴，帮助你编写更好的代码。在�
 
 让我们开始你的第一个冒险！
 
-<a href="#">
-    <img src="/Images/echo-castle.jpg" style="width: 830px" />
-</a>
+![Echo Castle](../Images/echo-castle.jpg)
 
 ### 背景：
 
@@ -159,8 +155,6 @@ GitHub Copilot 是一位 AI 编程伙伴，帮助你编写更好的代码。在�
 
 ## 回声城堡的隐藏宝藏现在属于你！
 
-<a href="#">
-    <img src="/Images/echo-castle-treasure.jpg" style="width: 830px" />
-</a>
+[![Echo Castle Treasure](../Images/echo-castle-treasure.jpg)](#)
 
 你已经完成了你的第一个 GitHub Copilot "热身"冒险！查看位于 [Adventures](../Adventures) 文件夹中的其他冒险，了解 GitHub Copilot 的其他用法。

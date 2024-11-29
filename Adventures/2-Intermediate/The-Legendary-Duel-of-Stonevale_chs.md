@@ -1,8 +1,5 @@
 ## 斯通维尔的传奇决斗
-
-<a href="#">
-    <img src="/Images/stonevale.jpg" style="width: 830px" />
-</a>
+![Stonevale](../../Images/stonevale.jpg)
 
 ### 背景
 
@@ -76,9 +73,7 @@
 
 ### GitHub Copilot 提示
 
-<a href="#">
-    <img src="/Images/copilot-tips.jpg"  style="width: 830px" />
-</a>
+[![Copilot Tips](../../Images/copilot-tips.jpg)](#)
 
 #### 使用Copilot提高效率
 

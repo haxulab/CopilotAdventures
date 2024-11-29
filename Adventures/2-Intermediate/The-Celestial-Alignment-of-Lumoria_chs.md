@@ -1,8 +1,6 @@
-## Lumoria的天体排列
+排列
 
-<a href="#">
-    <img src="/Images/lumoria.jpg" style="width: 830px" />
-</a>
+![Lumoria](../../Images/lumoria.jpg)
 
 ### 背景
 
@@ -62,9 +60,7 @@
 
 ### GitHub Copilot 提示
 
-<a href="#">
-    <img src="/Images/copilot-tips.jpg"  style="width: 830px" />
-</a>
+[![Copilot Tips](../../Images/copilot-tips.jpg)](#)
 
 首先，你需要将行星数据放入一个你可以使用的数据结构中。
 

@@ -1,8 +1,6 @@
 ## 星际网络
 
-<a href="#">
-    <img src="../../../Images/starborn.jpg" style="width: 830px" />
-</a>
+![星生](../../../Images/starborn.jpg)
 
 ### 背景
 

@@ -1,14 +1,10 @@
-<a href="#">
-    <img src="/Images/copilot-adventures.jpg" style="width: 830px;" />
-</a>
+[![Copilot Adventures](./Images/copilot-adventures.jpg)](#)
 
 欢迎来到 Copilot 冒险！这一系列编程冒险旨在通过使用 [GitHub Copilot](https://github.com/features/copilot) 帮助你编写代码来学习新概念和语言。让我们开始吧！
 
 ## 选择你的 Copilot 冒险
 
-<a href="#">
-    <img src="/Images/choose-own-adventure.jpg" style="width: 830px" />
-</a>
+[![Choose Own Adventure](./Images/choose-own-adventure.jpg)](#)
 
 ### 1. 进入冒险竞技场
 
@@ -68,16 +64,14 @@ git clone https://github.com/microsoft/copilotadventures
     Solution for [Name of Your Adventure]
     ```
 
-    将 `[Name of Your Adventure]` 替换为你选择解决的冒险名称（例如：`The Legendary Duel of Stonevale`）。
+    将`[Name of Your Adventure]` 替换为你选择解决的冒险名称（例如：`The Legendary Duel of Stonevale`）。
 
 - 在正文部分添加指向你的 GitHub 仓库的链接。
 - 如果你有任何反馈，请分享你的发现（好的或坏的）。我们很想听到你的反馈！
 
 ## 下一步：学习一种新语言或为你的冒险创建一个 UI
 
-<a href="#">
-    <img src="/Images/learn-more.jpg" style="width: 830px" />
-</a>
+[![Learn More](./Images/learn-more.jpg)](#)
 
 完成你的第一个冒险后，再次尝试，但这次使用 GitHub Copilot 用一种对你来说新的语言来完成冒险。例如，如果你通常用 C# 编写代码，使用 Copilot 帮助你用 Python 或其他你想学习的语言来解决冒险。
 
@@ -93,4 +87,4 @@ git clone https://github.com/microsoft/copilotadventures
 - 为你的冒险提供一个图像（使用 [Microsoft Copilot Image Creator](https://www.bing.com/images/create) 或其他图像生成解决方案）。图像应为“横向”，尺寸为 1456x832 像素。
 - 使用你选择的语言提供一个解决方案。将所有代码放在一个文件中（为了保持简单），将其添加到 `Solutions` 中的适当语言文件夹中，并将其包含在 PR 中。
 
-我们将审查你的提交，如果符合条件将其合并到仓库中。
+我们将审查你的提交，如果符合条件将其合并到仓库中

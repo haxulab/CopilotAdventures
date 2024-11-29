@@ -1,8 +1,6 @@
 ## Mythos的Gridlock竞技场
 
-<a href="#">
-   <img src="/Images/mythos-arena-full.jpg" style="width: 830px" />
-</a>
+[![Mythos Arena](../../Images/mythos-arena-full.jpg)](#)
 
 ### 背景
 
@@ -50,11 +48,9 @@
     - 空单元格可以表示为⬜️。
     - 战斗单元格可以表示为🤺。
     - 每轮结束后在网格下方显示每个生物的当前分数。
-    - 游戏结束时，返回每个生物积累的总分。
+   - 游戏结束时，返回每个生物积累的总分。
 
-      <a href="#">
-         <img src="/Images/mythos-board-example.png">
-      </a>
+   ![Mythos Board Example](../../Images/mythos-board-example.png)
 
 ### 约束
 
@@ -104,19 +100,16 @@
     - [Python](https://www.python.org/downloads/)
     - [.NET](https://dot.net)
 1. 创建一个代码文件夹。
-    - JavaScript: 创建一个名为`mythos`的文件夹，并添加一个名为`app.js`的文件。
-    - Python: 创建一个名为`mythos`的文件夹，并添加一个名为`app.py`的文件。
+    - JavaScript: 创建一个名为`mythos`的文件夹，并添加一个名为`app.js`的文件文    - Python: 创建一个名为`mythos`的文件夹，并添加一个名为`app.py`的文件。
     - C#: 创建一个名为`mythos`的文件夹，并运行`dotnet new console`。
 
 ### GitHub Copilot 提示
 
-<a href="#">
-    <img src="/Images/copilot-tips.jpg" style="width: 830px" />
-</a>
+[![Copilot Tips](../../Images/copilot-tips.jpg)](#)
 
 #### 使用Copilot提高效率
 
-看看你是否可以使用Copilot确定代码的复杂度(BigO notation)。
+看看你是否可以使用Copilot确定代栏杂度(BigO notation)。
 
 1. 打开侧边栏中的 [GitHub Copilot Chat 视图](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat#asking-your-first-question)，如果它还未打开。确保你的解决方案文件也仍然是打开的。
 
