@@ -1,7 +1,7 @@
 ## 天机镇
 
 <a href="#">
-    <img src="../../Images/tempora-clocks.jpg"  style="width: 830px" />
+    <img src="/Images/tempora-clocks.jpg"  style="width: 830px" />
 </a>
 
 ### 背景
@@ -55,7 +55,7 @@
 ### GitHub Copilot 提示
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+    <img src="/Images/copilot-tips.jpg"  style="width: 830px" />
 </a>
 
 #### 使用Copilot提高效率

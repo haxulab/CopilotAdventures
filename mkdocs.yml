@@ -1,0 +1,22 @@
+site_name: Copilot 冒险
+docs_dir: .
+
+nav:
+  - Copilot 冒险: README_chs.md
+  - 热身冒险: Adventures/Warmup-Adventure_chs.md
+  - 初级:
+    - 天机镇: Adventures/1-Beginner/The-Clockwork-Town-of-Tempora_chs.md
+    - 魔法森林: Adventures/1-Beginner/The-Magical-Forest-of-Algora_chs.md
+  - 中级: 
+    - 天体排列: Adventures/2-Intermediate/The-Celestial-Alignment-of-Lumoria_chs.md
+    - 传奇决斗: Adventures/2-Intermediate/The-Legendary-Duel-of-Stonevale_chs.md
+    - 古老卷轴: Adventures/2-Intermediate/The-Scrolls-of-Eldoria_chs.md
+  - 高级:
+    - 竞技场: Adventures/3-Advanced/The-Gridlock-Arena-of-Mythos_chs.md
+    - 星际网络: Adventures/MSGraph/Beginner/The-Interstellar-Network-of-Starborn_chs.md
+
+plugins:
+  - search
+  - same-dir
+
+theme: readthedocs

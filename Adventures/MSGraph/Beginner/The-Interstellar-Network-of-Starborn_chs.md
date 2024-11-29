@@ -1,4 +1,4 @@
-## 星际星生网络
+## 星际网络
 
 <a href="#">
     <img src="../../../Images/starborn.jpg" style="width: 830px" />

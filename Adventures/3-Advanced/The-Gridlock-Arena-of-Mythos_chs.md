@@ -1,7 +1,7 @@
 ## Mythos的Gridlock竞技场
 
 <a href="#">
-   <img src="../../Images/mythos-arena-full.jpg" style="width: 830px" />
+   <img src="/Images/mythos-arena-full.jpg" style="width: 830px" />
 </a>
 
 ### 背景
@@ -53,7 +53,7 @@
     - 游戏结束时，返回每个生物积累的总分。
 
       <a href="#">
-         <img src="../../Images/mythos-board-example.png">
+         <img src="/Images/mythos-board-example.png">
       </a>
 
 ### 约束
@@ -111,7 +111,7 @@
 ### GitHub Copilot 提示
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg" style="width: 830px" />
+    <img src="/Images/copilot-tips.jpg" style="width: 830px" />
 </a>
 
 #### 使用Copilot提高效率
