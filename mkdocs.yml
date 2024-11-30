@@ -19,4 +19,4 @@ plugins:
   - search
   - same-dir
 
-theme: readthedocs
+theme: material
